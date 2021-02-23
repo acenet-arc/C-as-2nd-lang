@@ -1,4 +1,8 @@
 /* Code from Kernighan & Ritchie 2nd ed. p.69 */
+/* I was obliged to change the name of the function getline() to
+   getlin() because there is now a function getline() in stdio.h,
+   and how to mask a library function is NOT the point of this example.
+   RMD 2021-02-23    */
 
 #include <stdio.h>
 #define MAXLINE 1000  /* maximum input line length */
