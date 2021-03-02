@@ -3,6 +3,7 @@
 int main()
 {
     int *ip;
-    ip = 0;
+    ip = NULL;
+    printf("Points to:     %x\n", ip);
     printf("Null pointer:  %d\n", *ip);
 }
