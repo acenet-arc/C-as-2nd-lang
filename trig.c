@@ -4,6 +4,6 @@
 int main()
 {
     double radians = 1.717;
-    printf("sine(%f) is %f\n", radians, sin(radians));
+    printf("cosine(%f) is %f\n", radians, cos(radians));
 }
 
